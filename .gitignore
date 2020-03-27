@@ -1,0 +1,3 @@
+build/*
+.vscode/*
+plot/__pycache__/*
