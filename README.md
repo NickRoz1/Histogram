@@ -3,12 +3,13 @@
 This is a small program for building 2D hists and plotting them in the form of heatmap. Hist building code written in C++, plotting code written in Python using matplotlib.
 
 ## Result example
-Gaussian distribution (mean 0, standard deviation 1). 
+Gaussian distribution (mean 0, standard deviation 1), 100,000 samples. 
 
-20x20 bins and 50x50 bins.
+20x20 bins, 50x50 bins, 120x120 bins (number calculated using Freedman–Diaconis rule) respectively.
 
 ![Alt text](images/Figure_1_20_20.png?raw=true "20x20")
 ![Alt text](images/Figure_2_50_50.png?raw=true "50x50")
+![Alt text](images/Figure_3_120_120.png?raw=true "120x120")
 
 ## Options
 
